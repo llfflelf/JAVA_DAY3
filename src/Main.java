@@ -1,18 +1,17 @@
 public class Main {
     public static void main(String[] args) {
-        int a = 10;
-        int b = 13;
+        int score = 61;
 
-//        int max = (a > b) ? a : b;
-//        System.out.println(max);
-        int max;
+//        String  result = (score > 60) ? "통과" : "탈락";
 
-        if (a > b){
-            max = a;
+        String result;
+        if (score > 60){
+            result = "통과";
         }
         else {
-            max = b;
+            result = "탈락";
         }
-        System.out.println(max);
+
+        System.out.println("결과:"+ result);
     }
 }
